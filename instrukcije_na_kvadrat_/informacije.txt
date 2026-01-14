@@ -3,5 +3,5 @@ JMBAG: 77230072
 NAZIV PREDMETA: Web aplikacije
 NAZIV PROJEKTA: Instrukcije na kvadrat
 
-GITHUB LINK: 
-YOUTUBE VIDEO LINK: 
+GITHUB LINK: https://github.com/JPrnjak/instrukcije-na-kvadrat
+YOUTUBE VIDEO LINK: https://youtu.be/xGR7Zwr__Lk
