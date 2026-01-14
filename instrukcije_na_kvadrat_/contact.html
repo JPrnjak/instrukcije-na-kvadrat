@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Instrukcije na kvadrat – instrukcije iz matematike, fizike i programiranja za osnovnu, srednju školu i fakultet." />
+  <title>Instrukcije na kvadrat • Kontakt</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/favicon.svg" alt="Instrukcije na kvadrat logo" />
+        <div class="brand-title">
+          <strong>Instrukcije na kvadrat</strong>
+          <span>Osnovna • Srednja • Fakultet</span>
+        </div>
+      </div>
+      <nav aria-label="Glavna navigacija">
+        <ul>
+          <li><a class="" href="index.html">Početna</a></li>
+<li><a class="" href="news.html">Vijesti</a></li>
+<li><a class="" href="gallery.html">Galerija</a></li>
+<li><a class="" href="about.html">O nama</a></li>
+<li><a class="active" href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+<section class="card pad">
+  <h1>Kontakt</h1>
+  <p>Pošalji upit i reci koji predmet, razina (osnovna/srednja/faks) i koji termin ti odgovara.</p>
+</section>
+
+<section class="grid-3" style="grid-template-columns: 1.2fr .8fr; margin-top: 16px;">
+  <div class="map-wrap">
+    <iframe
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps?q=Trg%20bana%20Josipa%20Jela%C4%8Di%C4%87a,%20Zagreb&output=embed"
+      title="Google karta: Trg bana Jelačića, Zagreb"></iframe>
+    <p class="help" style="margin-top: 10px;">Adresa (primjer): <strong>Trg bana Jelačića, 10000 Zagreb</strong></p>
+  </div>
+
+  <section class="card pad" aria-label="Kontakt forma">
+    <h2>Kontakt forma</h2>
+    <form class="form" action="#" method="post">
+      <div class="form-row">
+        <div>
+          <label for="ime">Ime *</label>
+          <input id="ime" name="ime" type="text" required placeholder="Upiši ime" />
+        </div>
+        <div>
+          <label for="prezime">Prezime *</label>
+          <input id="prezime" name="prezime" type="text" required placeholder="Upiši prezime" />
+        </div>
+      </div>
+
+      <div>
+        <label for="email">Email adresa *</label>
+        <input id="email" name="email" type="email" required placeholder="ime@primjer.com" />
+      </div>
+
+      <div>
+        <label for="drzava">Država *</label>
+        <select id="drzava" name="drzava" required>
+          <option value="" selected disabled>Odaberi državu</option>
+          <option>Hrvatska</option>
+          <option>Slovenija</option>
+          <option>BiH</option>
+          <option>Srbija</option>
+          <option>Ostalo</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Newsletter *</label>
+        <div class="help">Želiš li primati obavijesti o terminima i pripremama?</div>
+        <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-top:6px;">
+          <label style="font-weight:700;">
+            <input type="radio" name="newsletter" value="da" required /> Da
+          </label>
+          <label style="font-weight:700;">
+            <input type="radio" name="newsletter" value="ne" required /> Ne
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <label for="poruka">Tijelo poruke *</label>
+        <textarea id="poruka" name="poruka" required placeholder="Npr. Matematika, 3. razred srednje, priprema za test u petak..."></textarea>
+      </div>
+
+      <button class="btn accent" type="submit">Pošalji</button>
+          </form>
+  </section>
+</section>
+
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="small">© 2026 • Instrukcije na kvadrat</div>
+      <div class="small">Trg bana Jelačića, 10000 Zagreb</div>
+    </div>
+  </footer>
+</body>
+</html>
